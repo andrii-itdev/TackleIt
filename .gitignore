@@ -3,3 +3,6 @@
 ################################################################################
 
 /TackleIt/.vs
+/TackleIt/TackleIt/bin
+/TackleIt/TackleIt/obj
+/TackleIt/TackleIt/Properties/PublishProfiles

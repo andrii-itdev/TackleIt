@@ -1,0 +1,37 @@
+﻿@model ExciteMyLife.EF.Models.QuestionSuggestion
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+@Html.Partial("_AdministrationPartial")
+
+<div>
+    <h4>QuestionSuggestion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Question.Text)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question.Text)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Suggestion.Text)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Suggestion.Text)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

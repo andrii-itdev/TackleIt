@@ -1,0 +1,46 @@
+﻿@model ExciteMyLife.EF.Models.SuggestionResponse
+
+@{
+    ViewBag.Title = "One";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="centered-text-block">
+
+    <div>
+        <div class="huge-text" style="margin-top:50px;color:rgb(64, 42, 196);">@Model.Text</div>
+        <div class="regular-text">@Model.Description</div>
+    </div>
+
+    <div style="margin-top:50px;">
+
+
+        <div class="btn-inline" style="width:245px;height:32px;">
+            <div class="btn box-shape regular-text" style="color:rgb(59, 91, 146);"
+                 onclick="SetResponseValue(2)">Can't do it today</div>
+        </div>
+
+        <div class="btn-inline" style="width:300px;height:55px;">
+            <div class="btn box-shape big-text" style="color:rgb(0, 113, 49);font-size:28pt;"
+                 onclick="ChangeFormsAction(); SetResponseValue(1);">Let's do it!</div>
+        </div>
+
+        <div class="btn-inline" style="width:245px;height:32px;">
+            <div class="btn box-shape regular-text" style=" color: rgb(59, 91, 146);"
+                 onclick="SetResponseValue(3)">Never suggest again</div>
+        </div>
+    </div>
+
+</div>
+
+<p>
+    @using (Html.BeginForm("One", "Proposition", FormMethod.Post, new { id = "ansForm" }))
+    {
+        @Html.AntiForgeryToken()
+        <input id = "Id" name = "Id" type = "text" value = "@Model.Id" hidden />
+        <input id = "Status" name = "Status" type = "number" hidden />
+    }
+
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Back to List", "Index")*@
+</p>

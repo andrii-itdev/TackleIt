@@ -1,0 +1,53 @@
+﻿@model ExciteMyLife.EF.Models.UserSuggestion
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>UserSuggestion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Suggestion.Text)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Suggestion.Text)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.DTAdded)*@
+            Date/Time
+        </dt>
+
+        <dd>
+            @((Model.DTAdded.Year == 1900) ? "[none]" : Model.DTAdded.ToString())
+            @*@Html.DisplayFor(model => model.DTAdded)*@
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SuggestionId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

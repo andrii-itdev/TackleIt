@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ExciteMyLife.Controllers.AccountController" Collapsed="true">
+    <Position X="8.75" Y="7.5" Width="2.25" />
+    <NestedTypes>
+      <Class Name="ExciteMyLife.Controllers.AccountController.ChallengeResult" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\AccountController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABAChACAAAAAAAAFgEgAABAABMKIAAAMRAAQgAAA=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Controllers.HomeController" Collapsed="true">
+    <Position X="8.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEACAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Controllers.InquiryController" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABAAAAAAAAAAAAAAAAAQAAAEAAAAAAAABA=</HashCode>
+      <FileName>Controllers\InquiryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Controllers.ManageController" Collapsed="true">
+    <Position X="8.75" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAQiAAgAAAAEFhAAAAAAEAIMIAAEEEgAAkAAA=</HashCode>
+      <FileName>Controllers\ManageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Controllers.PropositionController" Collapsed="true">
+    <Position X="8.75" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAYAEAQAAAAAAAAAAACECAAAAAAEAAAAAgAAIA=</HashCode>
+      <FileName>Controllers\PropositionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Controllers.QuestionsController" Collapsed="true">
+    <Position X="8.75" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACARAACAAAAAAAAAEAEQAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\QuestionsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Controllers.QuestionSuggestionsController" Collapsed="true">
+    <Position X="8.75" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACARAACAAAAAAAAAEAEQAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\QuestionSuggestionsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Controllers.SuggestionsController" Collapsed="true">
+    <Position X="8.75" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACARAACAAAAAAAAAEAEQAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\SuggestionsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Controllers.UserQuestionsController" Collapsed="true">
+    <Position X="8.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACARAACAAAAAAAAAAAEAAEACEAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\UserQuestionsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Controllers.UsersController" Collapsed="true">
+    <Position X="8.75" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACARAACAAAAAAAAAEAEQAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\UsersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Controllers.UserSuggestionsController" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACARAACAAAAAAAAAAAEAAEACEAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\UserSuggestionsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.BundleConfig" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.FilterConfig" Collapsed="true">
+    <Position X="12.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.EmailService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExciteMyLife.SmsService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExciteMyLife.ApplicationUserManager" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.ApplicationSignInManager" Collapsed="true">
+    <Position X="15.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.RouteConfig" Collapsed="true">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Startup" Collapsed="true">
+    <Position X="15.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\Startup.Auth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.DataInitializer" Collapsed="true">
+    <Position X="15.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.EF.Models.UserSuggestion" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAkAA=</HashCode>
+      <FileName>Models\UserSuggestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.EF.Models.UserQuestion" Collapsed="true">
+    <Position X="2" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAABAAAAAAAAAAAgAAAAAAAAEAAAAAAQAAAA=</HashCode>
+      <FileName>Models\UserQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.EF.Models.SuggestionResponse" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Models\Suggestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.EF.Models.Suggestion" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Models\Suggestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.EF.Models.QuestionSuggestion" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQAkAA=</HashCode>
+      <FileName>Models\QuestionSuggestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.EF.Models.Question" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAGAAAAAA=</HashCode>
+      <FileName>Models\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.EF.Models.InquiryModel" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAACgQAAAA=</HashCode>
+      <FileName>Models\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.SuggestionValue" Collapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAkAAAAAAAAAAAAAAAAAAAAAAAgCAAAgAA=</HashCode>
+      <FileName>Models\SuggestionValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.ExternalLoginConfirmationViewModel" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.ExternalLoginListViewModel" Collapsed="true">
+    <Position X="2" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.SendCodeViewModel" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAIAAAAgAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.VerifyCodeViewModel" Collapsed="true">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAEAAAAAAAgAAAAAAAAAAAAAAIAAAAgAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.ForgotViewModel" Collapsed="true">
+    <Position X="5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.LoginViewModel" Collapsed="true">
+    <Position X="2" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.RegisterViewModel" Collapsed="true">
+    <Position X="5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.ResetPasswordViewModel" Collapsed="true">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.ForgotPasswordViewModel" Collapsed="true">
+    <Position X="5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.ApplicationUser" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAACgAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.ApplicationDbContext" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAAAAAAAAAAAAAAEgAAAEAEAAAAEAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.IndexViewModel" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAQAAACAAAAAAAAAAQAAAEAEA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.ManageLoginsViewModel" Collapsed="true">
+    <Position X="3.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.FactorViewModel" Collapsed="true">
+    <Position X="3.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.SetPasswordViewModel" Collapsed="true">
+    <Position X="2" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.ChangePasswordViewModel" Collapsed="true">
+    <Position X="5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.AddPhoneNumberViewModel" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.VerifyPhoneNumberViewModel" Collapsed="true">
+    <Position X="2" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExciteMyLife.Models.ConfigureTwoFactorViewModel" Collapsed="true">
+    <Position X="3.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ExciteMyLife.EF.Models.QuestionType" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Question.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ExciteMyLife.EF.Models.SuggestionStatus" Collapsed="true">
+    <Position X="12.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAIAAABAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Models\UserSuggestion.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ExciteMyLife.SuggestionState" Collapsed="true">
+    <Position X="12.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>SuggestionState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

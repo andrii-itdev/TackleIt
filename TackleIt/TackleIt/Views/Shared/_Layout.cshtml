@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Excite My Life</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <script src="~/Scripts/Common/Common.js"></script>
+
+    @*<div id="background-gradient"></div>*@
+
+<div id="menu"
+     class="nav-menu box-shape">
+    @*<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        </div>*@
+    <ul class="nav-list regular-text">
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    </ul>
+
+    <hr />
+    <ul class="nav-list regular-text">
+        @*@if (Model.IsAdmin)
+        {
+            <li style="display:inline; margin:16px;">
+                @Html.ActionLink("Administration", "Index", "Admin", routeValues: null, htmlAttributes: new { @class = "btn regular-text", style = "margin-top:30px;display:inline-block;" })
+            </li>
+        }*@
+        @if (User.Identity.IsAuthenticated)
+        {
+            <li>
+                @Html.ActionLink("My Answers", "Index", "UserQuestions")
+            </li>
+            <li>
+                @Html.ActionLink("My Suggestions", "Index", "UserSuggestions")
+            </li>
+        }
+    </ul>
+    <hr/>
+
+    @Html.Partial("_LoginPartial")
+
+
+</div>
+
+    <div id="menuBtn"
+         onclick="MenuButtonClick()"
+         class="menu-btn box-shape clickable">
+        <i class="glyphicon glyphicon-menu-hamburger"></i>
+    </div>
+
+    <div class="body-content">
+        <a class="header-block"
+           href="/Home/Index">
+            <img src="~/Content/images/TackleItLogo.png"
+                 class="logo-img" />
+        </a>
+
+        <div class="content">
+            <div class="separation-block">
+                <div class="separation-line"></div>
+            </div>
+
+            @RenderBody()
+        </div>
+
+        <hr />
+        <footer style="display:block; text-align:center; margin-top:20px;">
+            <p>&copy; @DateTime.Now.Year - Tackle-It!</p>
+        </footer>
+
+    </div>
+
+    
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

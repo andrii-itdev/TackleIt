@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TackleIt", "TackleIt\TackleIt.csproj", "{3E46B484-5060-40A7-A35B-B69C448646B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TackleIt.Tests", "TackleIt.Tests\TackleIt.Tests.csproj", "{5712E907-D379-4EE7-9B2A-6E8A74F93895}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E46B484-5060-40A7-A35B-B69C448646B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E46B484-5060-40A7-A35B-B69C448646B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E46B484-5060-40A7-A35B-B69C448646B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E46B484-5060-40A7-A35B-B69C448646B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5712E907-D379-4EE7-9B2A-6E8A74F93895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5712E907-D379-4EE7-9B2A-6E8A74F93895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5712E907-D379-4EE7-9B2A-6E8A74F93895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5712E907-D379-4EE7-9B2A-6E8A74F93895}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA63B418-2B78-466E-95C1-3CE59786624A}
+	EndGlobalSection
+EndGlobal

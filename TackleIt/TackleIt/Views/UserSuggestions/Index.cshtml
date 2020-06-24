@@ -1,0 +1,50 @@
+﻿@model IEnumerable<ExciteMyLife.EF.Models.UserSuggestion>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>My suggestions:</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Suggestion.Text)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            Date
+            @*@Html.DisplayNameFor(model => model.DTAdded)*@
+        </th>
+        <th>
+            Actions
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Suggestion.Text)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Status)
+    </td>
+    <td>
+        @((item.DTAdded.Year == 1900) ? "" : item.DTAdded.ToShortDateString())
+        @*@Html.DisplayFor(modelItem => item.DTAdded)*@
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.SuggestionId }) |
+        @Html.ActionLink("Details", "Details", new { id = item.SuggestionId }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.SuggestionId })
+    </td>
+</tr>
+}
+
+</table>

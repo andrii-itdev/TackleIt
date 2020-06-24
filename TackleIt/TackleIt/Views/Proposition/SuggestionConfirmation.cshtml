@@ -1,0 +1,56 @@
+﻿@model ExciteMyLife.EF.Models.SuggestionResponse
+
+@{
+    ViewBag.Title = "SuggestionConfirmation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="centered-text-block">
+
+    <div>
+        <div class="huge-text" style="margin-top:50px;color:rgb(64, 42, 196);">@Model.Text</div>
+        <div class="regular-text">@Model.Description</div>
+    </div>
+
+    <div style="margin-top:70px;">
+
+        <div class="btn-block middle-box" style="width:380px;">
+            @using (Html.BeginForm("One", "Proposition", "Post"))
+            {
+                <input 
+                       id="Id" 
+                       name="Id" 
+                       type="number" 
+                       value="@Model.Id" 
+                       hidden/>
+                <input id="Status" 
+                       name="Status" 
+                       type="number" 
+                       value="@((int)(ExciteMyLife.EF.Models.SuggestionStatus.Completed))" 
+                       hidden />
+
+                <input type="submit" 
+                       value="Completed" 
+                       class="btn box-shape big-text" 
+                       style="display:block;width:380px;max-width:unset;color:rgb(221, 28, 28);font-size:28pt;"/>
+            }
+        </div>
+
+        <div class="btn-block middle-box" style="width:245px;margin-top:50px;">
+            @Html.ActionLink("Another one", "AnotherOne", "Proposition", new { 
+               @class="btn box-shape regular-text",
+               style="color:rgb(255, 159, 73);"})
+        </div>
+    </div>
+
+</div>
+
+<p>
+    @using (Html.BeginForm("One", "Proposition", FormMethod.Post, new { id = "ansForm" }))
+    {
+        @Html.AntiForgeryToken()
+        <input id="Id" name="Id" type="text" value="@Model.Id" hidden />
+        <input id="Status" name="Status" type="number" hidden />
+    }
+</p>

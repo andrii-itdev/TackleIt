@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="big-text">Administration</h2>
+
+<div>
+    <ul class="nav-list items-list regular-text">
+        <li class="btn box-shape">@Html.ActionLink("Users", "Index", "Users")</li>
+        <li class="btn box-shape">@Html.ActionLink("Questions", "Index", "Questions")</li>
+        <li class="btn box-shape">@Html.ActionLink("Suggestions", "Index", "Suggestions")</li>
+        <li class="btn box-shape">@Html.ActionLink("QuestionSuggestions", "Index", "QuestionSuggestions")</li>
+    </ul>
+</div>
+

@@ -1,0 +1,44 @@
+﻿@model ExciteMyLife.EF.Models.QuestionSuggestion
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+@Html.Partial("_AdministrationPartial")
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>QuestionSuggestion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Question.Text)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question.Text)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Suggestion.Text)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Suggestion.Text)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
